@@ -11,13 +11,13 @@ window.onload = function () {
 };
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Are you ready Sohneyoo?😜😍',
+        title: 'You want to play music in bacground ?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#3085d6',
-        confirmButtonText: 'Hanjii',
-        cancelButtonText: 'Bilkul..',
+        confirmButtonText: 'Sure',
+        cancelButtonText: 'No',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
