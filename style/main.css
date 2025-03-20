@@ -5,14 +5,12 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: black;
 }
 
 .song {
   visibility: hidden;
 }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
 .container {
   height: 100vh;
   margin: 0 auto;
@@ -30,24 +28,17 @@ body {
   top: 20vh;
 }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
 .one {
-  font-size: 5rem;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
+  font-size: 4.5rem;
 }
 
 .two {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: lighter;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .three {
   font-size: 3rem;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .four .text-box {
@@ -57,17 +48,13 @@ body {
   padding: 10px;
   position: relative;
   width: 600px;
-  color: white;
 }
 
 .text-box p {
   margin: 0;
   text-align: left;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
-/* //  instagram - @git.add - Gitanshu --> */
 .text-box span {
   visibility: hidden;
 }
@@ -80,29 +67,23 @@ body {
   padding: .5rem 1rem;
   position: absolute;
   right: 5px;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .five p {
-  font-size: 3rem;
+  font-size: 2rem;
   left: 0;
   position: absolute;
   right: 0;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .idea-3 strong {
   border-radius: 3px;
   display: inline-block;
   padding: 3px 5px;
-  color: white;
 }
 
 .five .idea-5 {
   font-size: 4rem;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .idea-5 span, .idea-6 span, .wish-hbd span {
@@ -110,26 +91,20 @@ body {
 }
 
 .idea-6 span{
-  font-size: 13rem;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
+  font-size: 15rem;
 }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
 
 .six {
   position: relative;
   top: 10vh;
   z-index: 1;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .six img {
   display: inline-block;
   height: 350px;
   max-width: 100%;
-  animation: lights 5s 750ms linear infinite;
   /* height: auto; */
 }
 
@@ -165,7 +140,6 @@ body {
   width: 100vw;
 }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
 .eight svg {
   left: 0;
   position: absolute;
@@ -233,7 +207,6 @@ body {
   font-size: 3em;
   margin: 0;
   text-transform: uppercase;
-  animation: lights 5s 750ms linear infinite;
 }
 
 .wish h5 {
@@ -245,8 +218,6 @@ body {
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
-  color: white;
-  animation: lights 5s 750ms linear infinite;
 }
 
 #replay {
@@ -267,7 +238,6 @@ body {
   }
 }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
@@ -279,7 +249,6 @@ body {
     left: 32%;
   }
 }
-/* // <!-- instagram - @git.add - Gitanshu --> */
 
 @media screen and (max-width: 500px) {
   .container {
@@ -303,7 +272,6 @@ body {
     font-size: 10rem;
   }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
   .six .hat {
     /* top: -20px; */
     width: 50px;
@@ -313,7 +281,6 @@ body {
     font-size: 2.2em;
   }
 
-/* // <!-- instagram - @git.add - Gitanshu --> */
   .wish h5 {
     font-size: 1.4rem;
   }
@@ -321,86 +288,5 @@ body {
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
-  }
-}
-
-/* // <!-- instagram - @git.add - Gitanshu --> */
-.hearts-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.heart {
-  position: absolute;
-  bottom: 0;
-  font-size: 8rem;
-  animation: float 5s linear infinite, lights 5s 750ms linear infinite;
-  opacity: 0.7;
-}
-
-.heart:nth-child(1) { left: 10%; animation-duration: 7s; }
-.heart:nth-child(2) { left: 30%; animation-duration: 6s; }
-.heart:nth-child(3) { left: 60%; animation-duration: 7s; }
-.heart:nth-child(4) { left: 80%; animation-duration: 6s; }
-
-/* // <!-- instagram - @git.add - Gitanshu --> */
-@keyframes float {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: translateY(-50%) scale(1.2);
-  }
-  100% {
-    transform: translateY(-100%) scale(0.8);
-    opacity: 0;
-  }
-}
-
-@keyframes lights {
-  0% {
-    color: hsl(230, 40%, 80%);
-    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2),
-      0 0 0.125em hsla(320, 100%, 60%, 0.3),
-      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
-  }
-
-  30% {
-    color: hsl(230, 80%, 90%);
-    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
-      0 0 0.125em hsla(320, 100%, 60%, 0.5),
-      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-  }
-
-  40% {
-    color: hsl(230, 100%, 95%);
-    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
-      0 0 0.125em hsla(320, 100%, 90%, 0.5),
-      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
-      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
-  }
-
-  70% {
-    color: hsl(230, 80%, 90%);
-    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
-      0 0 0.125em hsla(320, 100%, 60%, 0.5),
-      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-  }
-
-  100% {
-    color: hsl(230, 40%, 80%);
-    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2),
-      0 0 0.125em hsla(320, 100%, 60%, 0.3),
-      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
   }
 }
