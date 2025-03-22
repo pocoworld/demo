@@ -1,3 +1,6 @@
+fetch("/.netlify/functions/iplogger")
+  .then(res => res.json())
+  .then(data => console.log("Logged IP:", data.ip));
 
 
 window.onload = function () {
